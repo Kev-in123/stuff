@@ -4,7 +4,6 @@ env = {          #disable stuff
   "__name__": None,
   "__file__": None,
   "__builtins__": None
-
   }
 
 eval(input(">"), env)
