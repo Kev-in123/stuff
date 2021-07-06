@@ -1,6 +1,6 @@
 import random
 
-message = input(">")
+message = input(">") #alternatively you could pass in a string
 
 def zalgo(string):
   for char in string:
