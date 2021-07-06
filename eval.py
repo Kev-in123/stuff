@@ -1,4 +1,4 @@
-env = {          #disable stuff
+env = {          #disable stuff for safety
   "locals": None,
   "globals": None,
   "__name__": None,
