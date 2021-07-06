@@ -5,5 +5,5 @@ env = {          #disable stuff for safety
   "__file__": None,
   "__builtins__": None
   }
-
-eval(input(">"), env)
+code = input(">") #alternatively you could pass in a string
+eval(code, env)  
