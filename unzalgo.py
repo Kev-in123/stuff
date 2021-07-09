@@ -1,4 +1,4 @@
-"""remove zalgo from text als words like 𝓽𝓱𝓮𝓼𝓮"""
+"""remove zalgo from text also words like 𝓽𝓱𝓮𝓼𝓮"""
 
 import re
 import unicodedata
