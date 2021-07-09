@@ -1,3 +1,5 @@
+"""safely use eval() in python"""
+
 env = {          #disable stuff for safety
   "locals": None,
   "globals": None,
@@ -7,3 +9,4 @@ env = {          #disable stuff for safety
   }
 code = input(">") #alternatively you could pass in a string
 eval(code, env)  
+
