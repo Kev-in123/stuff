@@ -1,3 +1,5 @@
+"""enter some text and have it printed with zalgo"""
+
 import random
 
 message = input(">") #alternatively you could pass in a string
