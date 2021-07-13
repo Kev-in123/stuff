@@ -1,4 +1,4 @@
-"""safely use eval() in python"""
+"""safely use eval() in python great as a caculator app"""
 
 env = {          #disable stuff for safety
   "locals": None,
