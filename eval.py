@@ -7,6 +7,6 @@ env = {          #disable stuff for safety
   "__file__": None,
   "__builtins__": None
   }
-code = input(">") #alternatively you could pass in a string
+code = input() #alternatively you could pass in a string
 eval(code, env)  
 
