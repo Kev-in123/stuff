@@ -2,5 +2,5 @@
 def isPrime(num):
     return 2 in [num, 2 ** num % num]
 
-num= int (input())    
+num = int(input()) #alternatively you could pass in a number    
 print(isPrime(num))
