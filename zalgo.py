@@ -2,7 +2,7 @@
 
 import random
 
-message = input(">") #alternatively you could pass in a string
+message = input() #alternatively you could pass in a string
 
 def zalgo(string):
   for char in string:
