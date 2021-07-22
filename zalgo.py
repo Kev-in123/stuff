@@ -10,13 +10,12 @@ def zalgo(string):
       string += " "
     else:
       intensity=3
-      for i in range(intensity):
+      for _ in range(intensity):
         zalgo_char = random.choice(range(768, 879))
         string += chr(zalgo_char)
       string += char
   half = int(len(string)/4)
-  word = string[half:]
-  return word
+  return string[half:]
 
 print(zalgo(string))
 
