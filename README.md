@@ -1,3 +1,3 @@
 # Stuff
 
-some random stuff I code
+Some random stuff I code
