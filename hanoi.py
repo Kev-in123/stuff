@@ -15,8 +15,8 @@ numDisks = int(input("Enter a number of disks: ")) #prompt for a number of disks
 fromRod = str(input("Enter the original rod: ")) #prompt for the original rod; alternatively you could pass in a string
 toRod = str(input("Enter the rod you are moving the disks to: ")) #prompt for the target rod; alternatively you could pass in a string
 
-used_rods.append(fromRod.lower()) #add the used rods to the list
-used_rods.append(toRod.lower())
+used_rods.append(fromRod) #add the used rods to the list
+used_rods.append(toRod)
 spare_rod = tuple(set(rods) - set(used_rods))[0] #find the remaining rod
 
 TowerOfHanoi(numDisks, fromRod, toRod, spare_rod) #call the function
