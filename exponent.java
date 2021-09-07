@@ -1,7 +1,14 @@
+import java.util.Scanner;
+
 public class exponent {
   public static void main(String[] args) {
-    System.out.println(recursiveExp(3, 5));
+    Scanner s = new Scanner(System.in);
+    int n = s.nextInt();
+    int m = s.nextInt();
+    System.out.println(recursiveExp(n, m));
+    s.close();
   }
+
   public static int recursiveExp(int n, int r) {
     if (r == 0) {
       return 1;
@@ -9,4 +16,5 @@ public class exponent {
       return n * recursiveExp(n, r - 1);
     }
   }
+  
 }
