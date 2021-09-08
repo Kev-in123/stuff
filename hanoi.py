@@ -4,9 +4,9 @@ def TowerOfHanoi(n, fromRod, toRod, spareRod): #create a function
     if n == 1: #avoid stack overflowing
         print(f"Move disk 1 from the {fromRod} rod to the {toRod} rod") #move the last disk
         return #exit the function
-    TowerOfHanoi(n-1, fromRod, spareRod, toRod) #call the function with a rod moved
+    TowerOfHanoi(n-1, fromRod, spareRod, toRod) #call the function with a disk moved
     print(f"Move disk {n} from the {fromRod} rod to the {toRod} rod") #move the disk
-    TowerOfHanoi(n-1, spareRod, toRod, fromRod) #call the function with a rod moved
+    TowerOfHanoi(n-1, spareRod, toRod, fromRod) #call the function with a disk moved
 
 rods = ("left","middle","right") #initialize the possible rods
 used_rods = [] #initialize the used rods
