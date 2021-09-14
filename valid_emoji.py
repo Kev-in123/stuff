@@ -1,4 +1,4 @@
-"""validates a discord emoji"""
+"""validates a discord emoji (the server ones)"""
 import re #regex for validation
 
 emoji_regex = re.compile(r"<a*:[a-zA-Z0-9]+:[0-9]{18}>") #checks if the emoji is animated or not, then matches an emoji name, and finally the id
