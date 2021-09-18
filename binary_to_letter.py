@@ -1,5 +1,5 @@
 strInBinary = input('Enter a binary number in base 2 to get a letter: ')
-print(chr(int(strInBinary[:8], 2)))
+print(chr(int(strInBinary, 2)))
 
 # a list of letters to save your time
 """
