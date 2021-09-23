@@ -1,10 +1,10 @@
-class TODO:
+class TODO: #creates a class cuz why not
 
     def __init__(self):
-      self.todo = []
+      self.todo = [] #declare the list we're using
 
-    def _add(self, item):
-      self.todo.append(item)
+    def _add(self, item): 
+      self.todo.append(item) 
 
     def _remove(self, item: str):
       self.todo.pop(self.todo.index(item))
