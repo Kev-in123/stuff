@@ -14,7 +14,7 @@ public class is_prime {
     } else if (n == 2) { //if the number is 2
       return true;
     } else { //if the number is prime and isn't 2 the check below must be true
-      return 2 == (Math.pow(2, n) % n);
+      return (Math.pow(2, n) % n) == 2;
     }
   }
 }
