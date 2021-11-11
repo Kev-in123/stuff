@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cmath>
 
-using namespace std;
-
 bool isPrime(int n) {
     if (n < 2) { //check if the number is less than 2
         return false;
