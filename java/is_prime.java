@@ -13,7 +13,7 @@ public class is_prime {
       return false;
     } else if (n == 2) { //if the number is 2
       return true;
-    } //if the number is prime and isn't 2 the check below must be true
+    } //if the number is prime and isn't 2 the check below should be true
     return (Math.pow(2, n) % n) == 2;
   }
 }
