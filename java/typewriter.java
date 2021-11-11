@@ -9,7 +9,7 @@ public class typewriter {
   }
 
   public static void typewriter(String n) {
-    for (int i = 0; i < n.length(); ++i) { //iterate through the lenght of the string 
+    for (int i = 0; i < n.length(); ++i) { //iterate through the length of the string 
       char c = n.charAt(i); //set c to the character of the index int the string
       System.out.print(c); //print the character
     }
