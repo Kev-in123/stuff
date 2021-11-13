@@ -6,7 +6,7 @@ void Median::addNum(int n) {
 }
 
 double Median::findMedian() {
-	nums.sort();
+    nums.sort();
     std::list<int>::iterator index = nums.begin();
     int length = nums.size();
     int middle = length / 2;
@@ -18,5 +18,4 @@ double Median::findMedian() {
     std::advance(index, -1);
     int val2 = *index;
     return (double) (val + val2) / 2;
-
 }
