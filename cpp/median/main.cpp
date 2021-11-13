@@ -1,7 +1,6 @@
 #include <iostream>
 #include "median.h"
 
-
 int main()
 {
 	Median m;
