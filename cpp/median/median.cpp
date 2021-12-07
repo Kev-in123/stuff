@@ -2,7 +2,7 @@
 #include <list>
 
 void Median::addNum(int n) {
-	nums.push_back(n);
+    nums.push_back(n);
 }
 
 double Median::findMedian() {
