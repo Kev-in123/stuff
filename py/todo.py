@@ -1,7 +1,7 @@
 class TODO: #creates a class cuz why not
 
     def __init__(self):
-      self.todo = [] #declare the list we're using
+      self.todo = [] # declare the list we're using
 
     def _add(self, item): 
       self.todo.append(item) 
@@ -23,10 +23,10 @@ class TODO: #creates a class cuz why not
     def _switch(self, item1, item2):
       self.todo[item1-1], self.todo[item2-1] = self.todo[item2-1], self.todo[item1-1]
 
+# driver code
 t = TODO()
 t._add("thing 1")
 t._add("thing 2")
 t._list()
-
 t._switch(1, 2)
 t._list()

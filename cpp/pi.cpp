@@ -4,10 +4,10 @@
 
 
 int main() {
-    //initialize variables for the number of points in and outside of a circle
+    // initialize variables for the number of points in and outside of a circle
     int in = 0;
     int total = 0;
-    //seed
+    // seed
     srand(time(NULL));
     // loop 1,000,000 times, increase the value for more a more accurate result
     for (int i = 1; i < 1000000; i++) {

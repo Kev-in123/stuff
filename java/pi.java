@@ -1,6 +1,6 @@
 public class pi {
   public static void main(String[] args) {
-    //initialize variables for the number of points in and outside of a circle
+    // initialize variables for the number of points in and outside of a circle
     int in = 0;
     int total = 0;
     double distance;

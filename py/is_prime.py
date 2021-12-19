@@ -6,5 +6,5 @@ def isPrime(num):
       return True
     return 2 ** num % num == 2 # this will return true for most cases
 
-num = int(input()) #alternatively you could pass in a number    
-print(isPrime(num)) #print
+num = int(input()) # alternatively you could pass in a number    
+print(isPrime(num))

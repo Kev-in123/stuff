@@ -2,7 +2,7 @@
 
 void typewriter(std::string n) {
     for (int i = 0; i < n.length(); ++i) { 
-        std::cout << (n[i]); //print the character
+        std::cout << (n[i]); // print the character
     }
 }
 int main() {
