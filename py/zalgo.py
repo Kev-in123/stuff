@@ -2,20 +2,22 @@
 
 import random
 
-message = input() #alternatively you could pass in a string
-
 def zalgo(string): 
-  for char in string: #loop through the word
-    if char == " ": #skip spaces
+  # loop through the word
+  for char in string:
+    # skip spaces 
+    if char == " ": 
       string += " "
     else:
       intensity = 3
       for _ in range(intensity):
-        zalgo_char = random.choice(range(768, 879)) #magik
+        # magik
+        zalgo_char = random.choice(range(768, 879))
         string += chr(zalgo_char)
       string += char
   half = int(len(string)/4)
   return string[half:]
 
+message = input() # alternatively you could pass in a string
 print(zalgo(string))
 
