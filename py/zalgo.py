@@ -15,9 +15,9 @@ def zalgo(string):
         zalgo_char = random.choice(range(768, 879))
         string += chr(zalgo_char)
       string += char
-  half = int(len(string)/4)
+  half = len(string)//4
   return string[half:]
 
 message = input() # alternatively you could pass in a string
-print(zalgo(string))
+print(zalgo(message))
 
