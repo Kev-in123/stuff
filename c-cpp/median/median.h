@@ -3,8 +3,8 @@
 
 class Median {
 private:
-	std::list<int> nums;
+  std::list<int> nums;
 public:
-	void addNum(int n);
-	double findMedian();
+  void addNum(int n);
+  double findMedian();
 };
