@@ -1,5 +1,3 @@
-"""enter some text and have it printed with zalgo"""
-
 import random
 
 def zalgo(string): 

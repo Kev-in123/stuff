@@ -1,5 +1,3 @@
-"""recursive algorithm to solve the towers of hanoi"""
-
 def TowerOfHanoi(n, fromRod, toRod, spareRod): # create a function
     if n == 1: # avoid overflowing
         print(f"Move disk 1 from the {fromRod} rod to the {toRod} rod") # display the step

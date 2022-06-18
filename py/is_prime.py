@@ -1,4 +1,3 @@
-"""checks if a number is prime"""
 def isPrime(num):
     if (num < 2):
       return False

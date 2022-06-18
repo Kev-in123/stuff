@@ -16,7 +16,7 @@ class MedianFinder: #class
         """
         Calculate the median
         """
-        self.nums.sort() # sort then numbers
+        self.nums.sort() # sort the numbers
         length = len(self.nums) # find the length
         middle = length//2  #get the middle index
         val = self.nums[middle] # find the middle value

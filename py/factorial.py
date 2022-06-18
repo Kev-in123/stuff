@@ -1,5 +1,3 @@
-"""factorial in python"""
-
 def factorial(num): # create a function
   fact = 1 # initialize factorial as 1
   for i in range(1, num + 1): # loop to the number

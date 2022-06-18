@@ -1,4 +1,3 @@
-"""check if a time is valid with the `hh:mm:ss xx` format"""
 import re
 
 # checks if the hh:mm:ss: xx is valid

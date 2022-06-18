@@ -1,5 +1,3 @@
-"""fibonacci in python"""
-
 def calculate(n: int): # function defenition
 
     if n == 2 or n == 1: # check if the number requested is the forst or second number

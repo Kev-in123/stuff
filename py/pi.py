@@ -1,8 +1,3 @@
-"""approximate value of pi"""
-'''
-Since the ratio of an area if a circle is inscribed in a square is π/4, we can calculate the approximate value of pi
-'''
-
 from random import uniform
 
 # initialize variables for the number of points in and outside of a circle
