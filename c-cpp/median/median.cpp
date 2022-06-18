@@ -13,7 +13,7 @@ double Median::findMedian() {
   std::advance(index, middle);
   int val = *index;
   if (length % 2 != 0) {
-      return val;
+    return val;
   }
   std::advance(index, -1);
   int val2 = *index;
